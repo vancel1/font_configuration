@@ -3,7 +3,6 @@ Font_config
 
 My Debian font configuration
 
-Install
-=======
+## Install
 
-aptitude install fonts-droid fonts-liberation fonts-wqy-microhei fonts-arphic-uming
+    aptitude install fonts-droid fonts-liberation fonts-wqy-microhei fonts-arphic-uming
