@@ -1,0 +1,11 @@
+!update Xresources
+!$ xrdb -merge ~/.Xresources
+
+! Xft settings --------------
+Xft.dpi: 96
+Xft.lcdfilter: lcddefault
+Xft.autohint: false
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.antialias: true
+Xft.rgba: rgb

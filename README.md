@@ -1,7 +1,7 @@
-Font_config
-===========
+font_configuration
+==================
 
-My Debian font configuration
+My Debian font configuration.
 
 ## Install
 
