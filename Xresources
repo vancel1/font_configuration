@@ -1,5 +1,5 @@
 !update Xresources
-!$ xrdb -merge ~/.Xresources
+! $ xrdb -merge ~/.Xresources
 
 ! Xft settings --------------
 Xft.dpi: 96
@@ -9,3 +9,51 @@ Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.antialias: true
 Xft.rgba: rgb
+
+!font and locale
+xterm*locale: true
+xterm*utf8: true
+xterm*utf8Title: true
+xterm*faceName: DejaVu Sans Mono:antialias=True:pixelsize=14
+xterm*faceNameDoublesize: WenQuanYi Micro Hei Mono:antialias=True:pixelsize=14
+xterm*xftAntialias: true
+xterm*cjkWidth: false
+
+!look and feel
+xterm*termName: xterm-256color
+xterm*VT100.geometry:80x25
+xterm*scrollBar: false
+xterm*cursorBlink: false
+xterm*toolBar: false
+xterm*background: #003344
+xterm*foreground: #d7d7d7
+xterm*cursorColor: green
+
+! terminal colors
+! tangoesque scheme
+!*background: #111111
+!*foreground: #babab6
+! Black (not tango) + DarkGrey
+*color0:  #000000
+*color8:  #555753
+! DarkRed + Red
+*color1:  #ff6565
+*color9:  #ff8d8d
+! DarkGreen + Green
+*color2:  #93d44f
+*color10: #c8e7a8
+! DarkYellow + Yellow
+*color3:  #eab93d
+*color11: #ffc123
+! DarkBlue + Blue
+*color4:  #204a87
+*color12: #3465a4
+! DarkMagenta + Magenta
+*color5:  #ce5c00
+*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+*color6:  #89b6e2
+*color14: #46a4ff
+! LightGrey + White
+*color7:  #cccccc
+*color15: #ffffff
